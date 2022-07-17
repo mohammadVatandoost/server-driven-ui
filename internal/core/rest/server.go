@@ -10,10 +10,10 @@ import (
 )
 
 type Server struct {
-	Engine                  *gin.Engine
-	logger                  *logrus.Logger
-	srv                     *http.Server
-	conf                    Config
+	Engine *gin.Engine
+	logger *logrus.Logger
+	srv    *http.Server
+	conf   Config
 }
 
 func (s *Server) Run() {
@@ -39,8 +39,8 @@ func (s *Server) Shutdown(ctx context.Context) {
 
 func New(logger *logrus.Logger, conf Config) *Server {
 	return &Server{
-		logger:                  logger,
-		Engine:                  gin.New(),
-		conf:                    conf,
+		logger: logger,
+		Engine: gin.New(),
+		conf:   conf,
 	}
 }

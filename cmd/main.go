@@ -1,5 +1,15 @@
 package main
 
+import (
+	"fmt"
+	"os"
+
+	"github.com/mohammadVatandoost/server-driven-ui/internal/config"
+	"github.com/mohammadVatandoost/server-driven-ui/pkg/logger"
+	"github.com/sirupsen/logrus"
+	"github.com/spf13/cobra"
+)
+
 const serviceName = "server_driven_ui"
 
 func main() {

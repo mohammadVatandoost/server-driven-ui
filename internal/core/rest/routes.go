@@ -1,8 +1,8 @@
 package rest
 
 const (
-	versionPrefix      = "/v1"
-	pagePrefix     = "/page"
+	versionPrefix = "/v1"
+	pagePrefix    = "/page"
 )
 
 func (s *Server) Routes() {
@@ -13,4 +13,3 @@ func (s *Server) Routes() {
 	pagesGroup := groupV1.Group(pagePrefix)
 	pagesGroup.GET("/demo", s.GetDemoPage)
 }
-

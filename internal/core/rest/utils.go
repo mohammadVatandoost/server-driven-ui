@@ -17,8 +17,8 @@ package rest
 
 // 	//c.Data(status, gin.MIMEJSON, bytes)
 // 	//c.String(status, string(bytes))
-// 	c.JSON(status, gin.H{
-// 		"metadata": string(jsonConfigs),
-// 		"payload":  payload,
-// 	})
+// c.JSON(status, gin.H{
+// 	"metadata": string(jsonConfigs),
+// 	"payload":  payload,
+// })
 // }

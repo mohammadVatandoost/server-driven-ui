@@ -1,0 +1,1 @@
+{"buildTargets":[".PHONY",".bin/sqlc",".remove_empty_dirs","check","clean","collect_migrations","coverage","coverage.cover","coverage.html","db_service","dependencies","fmt","generate","get_list_files","help","lint","race","service","test"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
