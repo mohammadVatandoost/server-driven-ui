@@ -10,19 +10,19 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Sun Jul 17 11:34:42 2022
+# Make data base, printed on Thu Jul 21 19:32:28 2022
 
 # Variables
 
 # makefile (from `Makefile', line 101)
 GO_PBS = $(GO_PBS_WITH_SUFFIX:api/services/%=api/services/%)
 # automatic
- 
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
 # makefile (from `Makefile', line 97)
-LD_FLAGS := -X git.cafebazaar.ir/divar/divar-cloud-sand-boxing/pkg/info.Version=bd2245951485d515913c2033899f6bc7ce7a9b3a -X git.cafebazaar.ir/divar/divar-cloud-sand-boxing/pkg/info.Commit=bd2245951485d515913c2033899f6bc7ce7a9b3a -X git.cafebazaar.ir/divar/divar-cloud-sand-boxing/pkg/info.BuildTime=2022-07-17_11:34:42_+0200
+ 
+LD_FLAGS := -X git.cafebazaar.ir/divar/divar-cloud-sand-boxing/pkg/info.Version=b1a6ed233f7a9a2ad993010d69143eef2eecd721 -X git.cafebazaar.ir/divar/divar-cloud-sand-boxing/pkg/info.Commit=b1a6ed233f7a9a2ad993010d69143eef2eecd721 -X git.cafebazaar.ir/divar/divar-cloud-sand-boxing/pkg/info.BuildTime=2022-07-21_19:32:28_+0200
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
@@ -66,7 +66,7 @@ GOPATH = /Users/m.vatandoostsilab/go
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # makefile (from `Makefile', line 93)
-COMMIT := bd2245951485d515913c2033899f6bc7ce7a9b3a
+COMMIT := b1a6ed233f7a9a2ad993010d69143eef2eecd721
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
@@ -94,11 +94,11 @@ HOME = /Users/m.vatandoostsilab
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/m.vatandoostsilab/Library/Application Support/Code/CachedData/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+VSCODE_CODE_CACHE_PATH = /Users/m.vatandoostsilab/Library/Application Support/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
 # environment
 LOGNAME = m.vatandoostsilab
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -130,11 +130,11 @@ TMPDIR = /var/folders/xw/w11stqdx3hq6rbb4rwnkjg6h0000gr/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/m.vatandoostsilab/Library/Application Support/Code/1.69.1-main.sock
+VSCODE_IPC_HOOK = /Users/m.vatandoostsilab/Library/Application Support/Code/1.69.2-main.sock
 # environment
 MallocNanoZone = 0
 # makefile (from `Makefile', line 96)
-BUILD_TIME := 2022-07-17_11:34:42_+0200
+BUILD_TIME := 2022-07-21_19:32:28_+0200
 # makefile
 MAKEFLAGS = Rrqp
 # environment
@@ -144,7 +144,7 @@ MFLAGS = -Rrqp
 # makefile (from `Makefile', line 94)
 CI_COMMIT_TAG = 
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.4795424.4795430
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.5400531.5400537
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -182,7 +182,7 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 4737
+VSCODE_PID = 16723
 # variable set hash-table stats:
 # Load=84/1024=8%, Rehash=0, Collisions=14/143=10%
 
@@ -192,9 +192,9 @@ VSCODE_PID = 4737
 
 # Directories
 
-# . (device 16777232, inode 4269373): 11 files, no impossibilities.
+# . (device 16777232, inode 4269373): 14 files, no impossibilities.
 
-# 11 files, no impossibilities in 1 directories.
+# 14 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -506,6 +506,6 @@ api/pages/page.go:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sun Jul 17 11:34:42 2022
+# Finished Make data base on Thu Jul 21 19:32:28 2022
 
  
